@@ -4,12 +4,8 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { 
   SparklesIcon, 
-  CheckCircleIcon, 
-  TrendingUpIcon, 
-  DollarIcon,
   ChartIcon,
   TargetIcon,
-  HeartIcon,
   RocketIcon,
   ArrowRightIcon
 } from '@/components/icons/Icons';
@@ -244,7 +240,7 @@ export default function LandingPage() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-700 mb-6 italic">"{testimonial.quote}"</p>
+                <p className="text-gray-700 mb-6 italic">&quot;{testimonial.quote}&quot;</p>
                 <div className="flex items-center">
                   <img 
                     src={testimonial.avatar} 

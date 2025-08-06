@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import MainLayout from '@/components/layout/MainLayout';
-import { SearchIcon, DollarIcon, TargetIcon, ClockIcon, TrendingUpIcon, SparklesIcon } from '@/components/icons/Icons';
+import { SearchIcon, DollarIcon, ClockIcon, SparklesIcon } from '@/components/icons/Icons';
 import { funderProfiles } from '@/lib/funderProfiles';
 
 export default function FundersMarketplace() {

@@ -43,7 +43,7 @@ export default function DashboardBackup() {
             Welcome back, {user.name}!
           </h1>
           <p className="text-gray-600">
-            Here's what's happening with your grant applications today.
+            Here&apos;s what&apos;s happening with your grant applications today.
           </p>
         </div>
 
